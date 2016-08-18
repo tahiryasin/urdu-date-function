@@ -1,5 +1,6 @@
 ## PHP function that formats date in Urdu language
 <?php
+
 function format_date_urdu ($dateString) {
 
         $week = array(
@@ -41,4 +42,5 @@ Usage example
 header('Content-Type: text/html; charset=utf-8');
 /* Date string can be passed in any format */
 echo format_date_urdu('December 9th, 2012'); /* Returns: اتوار 09 دسمبر 2012ء
+
 ?>
